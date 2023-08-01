@@ -2,3 +2,7 @@
 	path = dev_modules/webc-ors
 	url = https://github.com/ocdladefense/webc-ors.git
 	branch = development
+[submodule "webc-oar"]
+	path = dev_modules/webc-oar
+	url = https://github.com/ocdladefense/webc-oar.git
+	branch = development
