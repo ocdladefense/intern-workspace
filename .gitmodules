@@ -10,7 +10,3 @@
 	path = dev_modules/webc-events
 	url = https://github.com/ocdladefense/webc-events.git
 	branch = development
-[submodule "node-ors"]
-	path = dev_modules/node-ors
-	url = https://github.com/ocdladefense/webc-events.git
-	branch = development
