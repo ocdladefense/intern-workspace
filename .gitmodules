@@ -6,3 +6,7 @@
 	path = dev_modules/webc-oar
 	url = https://github.com/ocdladefense/webc-oar.git
 	branch = development
+[submodule "webc-events"]
+	path = dev_modules/webc-events
+	url = https://github.com/ocdladefense/webc-events.git
+	branch = development
