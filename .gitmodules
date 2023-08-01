@@ -1,0 +1,4 @@
+[submodule "webc-ors"]
+	path = dev_modules/webc-ors
+	url = https://github.com/ocdladefense/webc-ors.git
+	branch = development
