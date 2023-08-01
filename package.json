@@ -18,14 +18,6 @@
   },
   "homepage": "https://github.com/ocdladefense/intern-starter#readme",
   "dependencies": {
-    "@ocdladefense/books-online": "file:dev_modules/node-books-online",
-    "@ocdladefense/lib-http": "file:dev_modules/node-lib-http",
-    "@ocdladefense/lib-mock": "file:dev_modules/node-lib-mock",
-    "@ocdladefense/dom": "file:dev_modules/node-dom",
-    "@ocdladefense/html": "file:dev_modules/node-html",
-    "@ocdladefense/modal": "file:dev_modules/node-modal",
-    "@ocdladefense/view": "^2.1.1",
-    "@ocdladefense/web": "file:dev_modules/node-web",
     "@ocdladefense/webc-events": "file:dev_modules/webc-events",
     "@ocdladefense/webc-ors": "file:dev_modules/webc-ors",
     "@ocdladefense/webc-oar": "file:dev_modules/webc-oar",
@@ -33,7 +25,14 @@
     "npm-watch": "^0.11.0"
   },
   "overrides": {
-    "@ocdladefense/ors": "file:dev_modules/node-ors"
+    "@ocdladefense/ors": "file:dev_modules/node-ors",
+    "@ocdladefense2/lib-http": "file:dev_modules/node-lib-http",
+    "@ocdladefense2/lib-mock": "file:dev_modules/node-lib-mock",
+    "@ocdladefense2/dom": "file:dev_modules/node-dom",
+    "@ocdladefense2/html": "file:dev_modules/node-html",
+    "@ocdladefense2/modal": "file:dev_modules/node-modal",
+    "@ocdladefense/view": "^2.1.1",
+    "@ocdladefense2/web": "file:dev_modules/node-web"
   },
   "extra": {
     "1": "https://github.com/entwicklerstube/babel-plugin-root-import"
