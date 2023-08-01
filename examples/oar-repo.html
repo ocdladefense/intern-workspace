@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Testing Oar Api</title>
+    </head>
+
+<body tab-index="-1">
+    <!-- Here is our custom web component. -->
+    <webc-oar chapter="213" section="002" rule="0001"></webc-oar>
+    <p>Test</p>
+</body>
+
+<script type="module">
+
+    import { WebcOarAPI } from "../dist/WebcOar.js";
+    
+    window.onload = init;
+
+    function init() {
+        customElements.define("webc-oar", WebcOarAPI);
+    }
+</script>
+
+
+
+
+</html>
+
+
